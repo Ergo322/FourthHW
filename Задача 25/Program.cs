@@ -3,8 +3,10 @@
 // 2, 4 -> 16
 void KUB()
 {
+    Console.Write ("Введите число которое надо возвести в степень: ");
+    int A = Convert.ToInt32 (Console.ReadLine());
     Console.Write ("Введите степень: ");
-    int B  = Convert.ToInt32 (Console.ReadLine());
+    int B = Convert.ToInt32 (Console.ReadLine());
     int count = 0;
     int result = A;
     while (count<(B-1))
